@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.lht.frescotest.MainActivity">
+    <!--android:gravity="center"-->
+    <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <!--android:id="@+id/simpleDraweeView"-->
+        <!--android:layout_width="350dp"-->
+        <!--android:layout_height="350dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--fresco:actualImageScaleType="fitXY"-->
+        <!--fresco:backgroundImage="@android:color/white"-->
+        <!--fresco:fadeDuration="500"-->
+        <!--fresco:failureImage="@mipmap/failure"-->
+        <!--fresco:failureImageScaleType="centerInside"-->
+        <!--fresco:placeholderImage="@mipmap/picture"-->
+        <!--fresco:placeholderImageScaleType="fitCenter"-->
+        <!--fresco:pressedStateOverlayImage="@color/red"-->
+
+        <!--fresco:progressBarAutoRotateInterval="2000"-->
+        <!--fresco:progressBarImage="@mipmap/progress"-->
+        <!--fresco:progressBarImageScaleType="centerInside"-->
+        <!--fresco:retryImage="@mipmap/retry"-->
+
+        <!--fresco:retryImageScaleType="centerCrop"-->
+        <!--fresco:roundAsCircle="false"-->
+        <!--fresco:roundBottomLeft="true"-->
+        <!--fresco:roundBottomRight="true"-->
+        <!--fresco:roundTopLeft="true"-->
+        <!--fresco:roundTopRight="true"-->
+        <!--fresco:roundWithOverlayColor="#1296db"-->
+        <!--fresco:roundedCornerRadius="10dp"-->
+        <!--fresco:roundingBorderColor="#13227a"-->
+        <!--fresco:roundingBorderWidth="2dp" />-->
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simpleDraweeView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        fresco:actualImageScaleType="fitXY"
+        fresco:backgroundImage="@android:color/white"
+        fresco:fadeDuration="500"
+        fresco:failureImage="@mipmap/failure"
+        fresco:failureImageScaleType="centerInside"
+        fresco:placeholderImage="@mipmap/picture"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:pressedStateOverlayImage="@color/red"
+
+        fresco:progressBarAutoRotateInterval="2000"
+        fresco:progressBarImage="@mipmap/progress"
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:retryImage="@mipmap/retry"
+
+        fresco:retryImageScaleType="centerCrop"
+        fresco:roundAsCircle="false"
+        fresco:roundBottomLeft="true"
+        fresco:roundBottomRight="true"
+        fresco:roundTopLeft="true"
+        fresco:roundTopRight="true"
+        fresco:roundWithOverlayColor="#1296db"
+        fresco:roundedCornerRadius="10dp"
+        fresco:roundingBorderColor="#13227a"
+        fresco:roundingBorderWidth="2dp" />
+
+</LinearLayout>
